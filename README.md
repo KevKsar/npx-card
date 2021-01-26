@@ -4,7 +4,7 @@ A visit card in CLI for Kevin Cassart.
 
 ## Installation
 
-Use the package manager npm to install days-off-checker-CLI.
+Use the package manager npm.
 
 ```bash
 npx @kevksar/card
