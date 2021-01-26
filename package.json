@@ -2,9 +2,9 @@
   "name": "@kevksar/card",
   "version": "1.0.2",
   "description": "npx-card",
-  "main": "cli.js",
+  "main": "index.js",
   "bin": {
-    "kevin": "cli.js"
+    "kev-card": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/KevKsar/npx-card/issues"
   },
-  "homepage": "https://github.com/KevKsar/npx-card#readme"
+  "homepage": "https://github.com/KevKsar/npx-card#readme",
+  "dependencies": {
+    "boxen": "^5.0.0"
+  }
 }
