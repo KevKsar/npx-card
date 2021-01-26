@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-console.log('doing business');
-
 const chalk = require("chalk");
 const boxen = require("boxen");
 
@@ -11,7 +9,7 @@ name: chalk.bold.red('                  Kevin Cassart'),
     npm: chalk.cyanBright('https://npmjs.com/~kevksar'),
     github: chalk.cyanBright('https://github.com/KevKsar'),
     linkedin: chalk.cyanBright('https://linkedin.com/in/kevin-cassart'),
-    npx: chalk.red('npx') + ' ' + chalk.white('Kev'),
+    npx: chalk.red('npx') + ' ' + chalk.bold.whiteBright('Kev'),
     labelWork: chalk.white.bold('Work:'),
     labelOpenSource: chalk.white.bold('Open Source:'),
     labelnpm: chalk.white.bold('npm:'),

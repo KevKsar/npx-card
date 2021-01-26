@@ -1,10 +1,10 @@
 {
   "name": "@kevksar/card",
-  "version": "1.0.2",
-  "description": "npx-card",
+  "version": "1.0.5",
+  "description": "A visit card for Kevin Cassart",
   "main": "index.js",
   "bin": {
-    "kev-card": "index.js"
+    "kev": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,8 +15,10 @@
   },
   "keywords": [
     "visit-card",
+    "npm card",
     "card",
-    "npx-card"
+    "npx-card",
+    "business card"
   ],
   "author": "kevksar",
   "license": "ISC",
@@ -25,6 +27,7 @@
   },
   "homepage": "https://github.com/KevKsar/npx-card#readme",
   "dependencies": {
-    "boxen": "^5.0.0"
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0"
   }
 }
