@@ -4,7 +4,7 @@ A visit card in CLI for Kevin Cassart.
 
 ## Installation
 
-Use the package manager npm.
+Use npm to install.
 
 ```bash
 npx @kevksar/card
