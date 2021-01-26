@@ -1,0 +1,27 @@
+{
+  "name": "@kevksar/card",
+  "version": "1.0.2",
+  "description": "npx-card",
+  "main": "cli.js",
+  "bin": {
+    "kevin": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevKsar/npx-card.git"
+  },
+  "keywords": [
+    "visit-card",
+    "card",
+    "npx-card"
+  ],
+  "author": "kevksar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevKsar/npx-card/issues"
+  },
+  "homepage": "https://github.com/KevKsar/npx-card#readme"
+}
